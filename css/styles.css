@@ -163,6 +163,35 @@ body {
   font-weight: 100;
 }
 
+.page-content .imprint {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.page-content .imprint .wrapper {
+  display: inline-block;
+  width: auto;
+}
+
+.page-content .imprint .wrapper > * {
+  display: inline-block;
+}
+
+.page-content .imprint .social {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  margin: 0 20px;
+}
+
+.page-content .imprint .ico-facebook {
+  background-image: url('../img/social/facebook.png');
+}
+
 .footer {
   height: 30px;
   background-color: #52bbc2;
