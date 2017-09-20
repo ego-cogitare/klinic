@@ -1,5 +1,5 @@
 body {
-  font-family: "Raleway Webfont";
+  font-family: "Glegoo";
 }
 
  .text-left {
@@ -36,6 +36,10 @@ body {
   display: block;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .w50p {
   width: 50% !important;
 }
@@ -53,9 +57,8 @@ body {
 }
 
 .btn {
-  color: #4b4b48;
+  color: #ffffff;
   background: none;
-  border: 1px solid #4b4b48;
   padding: 5px 10px;
   display: inline-block;
   border-radius: 8px;
@@ -63,6 +66,104 @@ body {
   text-align: center;
 }
 
-BODY {
-  padding-top: 131px;
+.brand-color {
+  color: #47368a;
+}
+
+.light-green-color {
+  color: #52bbc2;
+}
+
+.dark-yellow-color {
+  color: #bccd17;
+}
+
+.dark-yellow-color-bg {
+  background-color: #bccd17;
+}
+
+.brand-color-bg {
+  background-color: #47368a;
+}
+
+.header .wrapper {
+  width: 100%;
+  text-align: center;
+  height: 150px;
+  display: table;
+}
+
+.header .title {
+  color: #ffffff;
+  font-size: 48px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav .menu {
+  display: inline-block;
+}
+
+.nav .menu .item {
+  display: inline-block;
+}
+
+.nav .menu .item A {
+  color: #52bbc2;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  padding: 15px 30px;
+}
+
+.nav .menu .item A:hover {
+  text-decoration: underline;
+}
+
+.slider .swiper-slide {
+  height: 480px;
+}
+
+.page-content .wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.page-content .page-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 32px;
+  margin-top: 120px;
+}
+
+.page-content .page-text {
+  line-height: 32px;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.page-content .btn {
+  margin: 60px auto 300px;
+  display: block;
+  width: 312px;
+  font-size: 26px;
+  padding: 35px 0px;
+  font-weight: bold;
+  border-radius: 35px;
+  text-decoration: none;
+}
+
+.page-content .btn SPAN {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.footer {
+  height: 30px;
+  background-color: #52bbc2;
 }
