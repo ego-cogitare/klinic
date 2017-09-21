@@ -290,6 +290,7 @@ body {
     padding-top: 80px;
   }
   .header {
+    background-color: #52bbc2;
     position: fixed;
     z-index: 3;
     top: 0;
@@ -297,8 +298,9 @@ body {
   }
   .header .wrapper {
     height: 80px;
-    padding: 0 55px;
     box-sizing: border-box;
+    width: calc(100% - 80px);
+    padding: 0 10px;
   }
   .header .title {
     font-size: 20px;
@@ -368,12 +370,10 @@ body {
     height: 250px;
   }
   .c-hamburger {
-     width: 80px;
-     height: 80px;
      display: block;
      outline: none;
      position: absolute;
-     top: 3px;
+     top: 6px;
      right: 5px;
      margin: 0;
      padding: 0;
