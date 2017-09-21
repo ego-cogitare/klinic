@@ -110,6 +110,7 @@ body {
 
 .nav .menu {
   display: inline-block;
+  white-space: nowrap;
 }
 
 .nav .menu .item {
@@ -213,6 +214,7 @@ body {
 
 .page-content .employees .employee {
   width: 33%;
+  max-width: 360px;
   display: inline-block;
   margin-top: 80px;
   line-height: 24px;
@@ -231,4 +233,50 @@ body {
 .footer {
   height: 30px;
   background-color: #52bbc2;
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1679px) {
+  .page-content .wrapper {
+    width: 75%;
+  }
+  .page-content .page-title {
+    font-size: 28px;
+    margin-top: 80px;
+    padding: 0 50px;
+  }
+  .page-content .page-text {
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0 50px;
+  }
+  .page-content .page-text.box-wrap {
+    padding: 40px 50px;
+    margin: 50px 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+  .page-content .btn {
+    margin: 50px auto 200px;
+  }
+  .page-content .wrapper {
+    width: 85%;
+  }
+  .page-content .employees .employee {
+    width: 32%;
+  }
+  .page-content .page-title {
+    font-size: 28px;
+    margin-top: 80px;
+    padding: 0 50px;
+  }
+  .page-content .page-text {
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0 50px;
+  }
+  .page-content .page-text.box-wrap {
+    padding: 40px 50px;
+    margin: 50px 0;
+  }
 }
