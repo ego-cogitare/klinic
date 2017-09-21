@@ -13,4 +13,17 @@ $(document).ready(function() {
       speed: 1000
     });
   }
+
+  $('.c-hamburger').on('click', function() {
+    var $menu = $('.nav');
+
+    if ($(this).hasClass('active')) {
+      $(this).removeClass('active');
+      $menu.removeClass('opened');
+    }
+    else {
+      $(this).addClass('active');
+      $menu.addClass('opened');
+    }
+  });
 });
