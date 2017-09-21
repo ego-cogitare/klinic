@@ -207,6 +207,27 @@ body {
   background-image: url('../img/social/facebook.png');
 }
 
+.page-content .employees {
+  margin: 0 0 200px 0;
+}
+
+.page-content .employees .employee {
+  width: 33%;
+  display: inline-block;
+  margin-top: 80px;
+  line-height: 24px;
+}
+
+.page-content .employees .employee .photo {
+  width: 80%;
+  padding-top: 80%;
+  margin: 0 auto 30px auto;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
 .footer {
   height: 30px;
   background-color: #52bbc2;
